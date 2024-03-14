@@ -2,7 +2,7 @@
 
 Esse é um projeto que lê um desses arquivos: CSV, JSON e PARQUET, do google drive faz transformações com Python e com o DuckDB e carrega os dados em um banco PostegreSQL.
 
-![Arquitetura](arquitetura_workshop.png)
+![Arquitetura](images/arquitetura_workshop.png)
 
 # DEPLOYS
 
@@ -10,7 +10,7 @@ O banco PostegreSQL foi hospedado na nuvem Render, onde você pode fazer deploys
 
 Foi realizado também o deploy de uma página na web utilizando Streamlit, através do Render, onde o usuário pode executar o ETL com apenas um clique, conforme imagem abaixo:
 
-![Streamlit](processador.png)
+![Streamlit](images/processador.png)
 
 # WHY USE IT
 
@@ -18,7 +18,7 @@ Então, caso um usuário tenha uma rotina para processar um arquivo diariamente,
 
 # ETL ARCHITECTURE
 
-![Arquitetura](mermaid_arquitetura.png)
+![Arquitetura](images/mermaid_arquitetura.png)
 
 # MORE ABOUT DUCKDB
 
